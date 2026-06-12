@@ -104,11 +104,7 @@ FIREBASE_CLIENT_EMAIL=xxxx
 FIREBASE_PRIVATE_KEY=xxxx
 ```
 
-🎯 Future Improvements
-Stripe Payment Integration
-Real-time Notifications
-Advanced Analytics Dashboard
-Product Reviews System
+
 
 👨‍💻 Author
 
