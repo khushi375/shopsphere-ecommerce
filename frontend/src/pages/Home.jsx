@@ -35,7 +35,7 @@ const Home = () => {
       title: "Home Brewing Redefined",
       subtitle: "Barista-Quality Espresso at Your Fingertips",
       description: "Bring the cafe home with programmable touchscreen temperature controllers and powerful frothing wands.",
-      image: "https://images.unsplash.com/photo-1517256064527-09c53b2d0bc6?w=1200&auto=format&fit=crop&q=80",
+      image: "https://i.pinimg.com/1200x/53/57/3c/53573c345b85d26d19230a22c8a9bf66.jpg",
       link: "/products?category=Home",
       buttonText: "Browse Espresso Makers"
     }

@@ -89,8 +89,8 @@ const RootLayout = ({ children }) => {
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              style={{ colorScheme: 'light' }}
-              className="px-3 bg-gray-100 border-r border-gray-300 text-gray-750 text-sm focus:outline-none cursor-pointer hover:bg-gray-200 transition-colors"
+              style={{ colorScheme: 'dark' }}
+              className="px-3 bg-slate-800 border-r border-slate-700 text-gray-100 text-sm focus:outline-none cursor-pointer hover:bg-slate-700 transition-colors"
             >
               {categories.map(cat => (
                 <option key={cat} value={cat} className="bg-white text-gray-800">{cat}</option>
@@ -214,7 +214,7 @@ const RootLayout = ({ children }) => {
         </div>
 
         {/* Amazon Sub-Navbar */}
-        <div className="bg-amazon-light text-sm text-gray-200 border-t border-slate-700 hidden lg:block">
+        <div className="bg-amazon-dark text-sm text-gray-200 border-t border-slate-700 hidden lg:block">
           <div className="max-w-7xl mx-auto px-4 py-1.5 flex items-center gap-6">
             <button 
               onClick={() => handleCategoryClick('All')}
